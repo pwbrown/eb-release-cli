@@ -1,0 +1,29 @@
+{
+  "name": "eb-release",
+  "version": "0.0.1",
+  "description": "CLI Tool to expand simplest functionality of the \"eb deploy\" command to allow running a series of scripts before deployment and generating a release branch in you \"git\" repository",
+  "main": "./lib/eb-release.js",
+  "bin": {
+    "eb-release": "./bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwbrown/eb-release-cli.git"
+  },
+  "author": "Philip Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwbrown/eb-release-cli/issues"
+  },
+  "homepage": "https://github.com/pwbrown/eb-release-cli#readme",
+  "dependencies": {
+    "read-package-json": "^2.0.12",
+    "yargs": "^11.0.0"
+  }
+}
