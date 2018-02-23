@@ -1,2 +1,2 @@
 #! /usr/bin/env node
-require('../lib/eb-release')();
+require('../lib/eb-release');
